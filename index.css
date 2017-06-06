@@ -4,23 +4,28 @@ section {
 
 header {
   position: relative;
-  text-align: center;
-  background-image: url("chickens.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
 }
 
-h1 {
+header img {
+  width: 100%;
+  height: auto;
+}
+
+header h1 {
+  position: relative;
   font-family: "Barrio", cursive;
   color: white;
-  font-size: 4em;
+  font-size: 5em;
   text-shadow: -3px -5px black;
+  padding-top: 25px;
+  text-align: center;
+  top: 0;
 }
 
 h2 {
   font-family: 'Shadows into Light', cursive;
   text-align: center;
+  top: 0;
 }
 
 button.addNew {
@@ -33,4 +38,8 @@ li {
   font-size: 1.2em;
   border: solid 1px black;
   padding: 10px;
+}
+
+button.star {
+  background-image: url('starblack.png') no-repeat;
 }

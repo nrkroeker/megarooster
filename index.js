@@ -4,8 +4,11 @@ const listBox = document.querySelector('.chickenList')
 
 
 function renderListItem(chicken, list) {
+    const button = document.createElement('button')
     const li = document.createElement('li')
     li.innerHTML = `${chicken.breed}, ${chicken.country}`
+    button.classList.add('star')
+    li.appendChild(button)
     listBox.insertBefore(li, list.firstChild)
 }
 
@@ -19,7 +22,6 @@ function renderList() {
 function onSubmit(ev) {
   ev.preventDefault()
   const form = ev.target
-
 
   const newChicken = {
     breed: form.chickenBreed.value,
