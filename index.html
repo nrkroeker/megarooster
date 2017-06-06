@@ -13,30 +13,24 @@
     <h1>ROOSTER ROSTER</h1>
 
     <section>
-      <div class="special">
-        <form class="person">
-          <p>
-            <label for="personName">Name</label>
-            <input type="text" name="personName">
-          </p>
+      <form class="newChicken">
+        <p>
+          <label for="chickenBreed">Chicken Breed</label>
+          <input type="text" name="chickenBreed" placeholder="Buckeye">
+        </p>
 
-          <p>
-            <label for="favoriteColor">Favorite Color</label>
-            <input type="color" name="favoriteColor">
-          </p>
-          <p>
-            <label for="age">Age</label>
-            <input type="number" name="age">
-          </p>
-          <p>
-            <button type="submit">Go</button>
-          </p>
-        </form>
-      </div>
+        <p>
+          <label for="country">Country of Origin</label>
+          <input type="text" name="country" placeholder="United States">
+        </p>
+        <p>
+          <button type="submit" class="addNew">Add New</button>
+        </p>
+      </form>
 
-      <div class="details"></div>
+      <div class="chickenList"></div>
+      
     </section>
-
     <script src="index.js"></script>
   </body>
 </html>
