@@ -4,8 +4,8 @@ Make a new project from scratch!
 
 ### Baseline Goal
 
-* User can enter a thing to be added to a list (e.g. dinosaur, Jeff Goldblum movie)
-* That thing will be added to the end of the list
+* ^ User can enter a thing to be added to a list (e.g. dinosaur, Jeff Goldblum movie)
+* ^ That thing will be added to the end of the list
 
 ### Bonus Credit
 
@@ -13,7 +13,7 @@ Make a new project from scratch!
 
 ### Super Mega Bonus Credit
 
-* Add a promote button to every list item that changes the appearance of that item when clicked
+* Add a _promote_ button to every list item that changes the appearance of that item when clicked
 
 ### Super Mega Bonus Credit Hyper Fighting
 

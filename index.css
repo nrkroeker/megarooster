@@ -27,3 +27,10 @@ button.addNew {
   padding: 15px 40px;
   border: solid 1px black;
 }
+
+li {
+  list-style: none;
+  font-size: 1.2em;
+  border: solid 1px black;
+  padding: 10px;
+}
