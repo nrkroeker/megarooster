@@ -9,7 +9,7 @@ Make a new project from scratch!
 
 ### Bonus Credit
 
-* Add names to the top of the list.
+* ^ Add names to the top of the list.
 
 ### Super Mega Bonus Credit
 
