@@ -8,28 +8,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css" rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Shadows+Into+Light" rel="stylesheet">
   </head>
   <body>
-    <h1>ROOSTER ROSTER</h1>
+    <header>
+      <h1>ROOSTER ROSTER</h1>
+    </header>
 
     <section>
       <form class="newChicken">
         <p>
           <label for="chickenBreed">Chicken Breed</label>
-          <input type="text" name="chickenBreed" placeholder="Buckeye">
+          <input type="text" name="chickenBreed" placeholder="Buckeye" required>
         </p>
 
         <p>
           <label for="country">Country of Origin</label>
-          <input type="text" name="country" placeholder="United States">
+          <input type="text" name="country" placeholder="United States" required>
         </p>
         <p>
           <button type="submit" class="addNew">Add New</button>
         </p>
       </form>
+      <br />
+      <br />
+      <h2>Chicken List</h2>
 
       <div class="chickenList"></div>
-      
+
     </section>
     <script src="index.js"></script>
   </body>
