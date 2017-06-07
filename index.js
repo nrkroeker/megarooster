@@ -2,12 +2,12 @@ const chickenForm = document.querySelector('.newChicken')
 const chickenList = [{breed: 'Huttegem', country: 'Belgium'}, {breed: 'Norfolk Grey', country: 'United Kingdom'}, {breed: 'Chios Fighting Chicken', country: 'Greece'}]
 const listBox = document.querySelector('.chickenList')
 
-
 function renderListItem(chicken, list) {
     const button = document.createElement('button')
     const li = document.createElement('li')
     li.innerHTML = `${chicken.breed}, ${chicken.country}`
     button.classList.add('star')
+    button.textContent = 'Favorite'
     li.appendChild(button)
     listBox.insertBefore(li, list.firstChild)
 }
@@ -36,5 +36,5 @@ function onSubmit(ev) {
 
 document.addEventListener("DOMContentLoaded", function(event) {
   renderList()
-  chickenForm.addEventListener('submit', onSubmit)
+  chickenForm.addEventListener('submit', onSubmit)vc
 });

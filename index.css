@@ -41,5 +41,6 @@ li {
 }
 
 button.star {
-  background-image: url('starblack.png') no-repeat;
+  float: right;
+  color: gold;
 }
