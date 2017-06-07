@@ -36,5 +36,5 @@ function onSubmit(ev) {
 
 document.addEventListener("DOMContentLoaded", function(event) {
   renderList()
-  chickenForm.addEventListener('submit', onSubmit)vc
+  chickenForm.addEventListener('submit', onSubmit)
 });
